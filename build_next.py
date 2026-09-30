@@ -2,7 +2,7 @@ import csv,json,random
 from pathlib import Path
 import pandas as pd
 p=Path('.')
-src=pd.read_excel('upload/PE6201_A1_Dataset_Clean.xlsx',sheet_name='Part 1')
+src=pd.read_excel('PE6201_End_of_Course_Project_Dataset.xlsx',sheet_name='Part 1')
 # A deliberately transparent synthetic benchmark: 20 requirements x three independently authored submissions.
 examples=[
 (0,'Attached final_report.pdf, eight pages.','Attached final_report.docx, eight pages; no PDF.','Only a project logo is supplied.'),
